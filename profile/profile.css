@@ -1,0 +1,66 @@
+.profile .content-container {
+	width: 80%;
+}
+
+.profile ul li sup {
+	color: #F31010;
+
+}
+
+.profile input[type="text"],
+.profile input[type="number"],
+.profile input[type="file"],
+.profile textarea{
+	padding:7px;
+	width: 275px;
+}
+
+.form-container {
+	min-height:485px;
+}
+.profile form{
+	margin:30px;
+}
+.form-container li{
+	width:320px;
+}
+
+.form-container textarea{
+	height:100px;
+}
+.form-container input[type="button"]{
+	cursor:pointer;
+}
+
+form textarea {
+	margin: 5px;
+}
+
+.form-container input[type="button"]:disabled {
+background: #D3CEC9;
+cursor: default;
+}
+
+.form-container .save {
+	background:#265A01;
+	border:none;
+	color:#fff;
+	font-size:14px;
+	padding:5px 10px 5px 10px;
+	float:right;
+	margin-right:20px;
+}
+.imagePreview {
+	background:#088A08;
+	padding: 2px 2px 0px 2px;
+	margin:0 50px 0 0;
+	float:right;
+}
+.imagePreview  img {
+	height:150px;
+	width:150px;
+}
+
+footer {
+	clear: both;
+}

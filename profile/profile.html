@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MY Book</title>
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<link rel="stylesheet" type="text/css" href="../feed/feed.css">
+		<link rel="stylesheet" type="text/css" href="profile.css">
+	</head>
+	<body class="profile">
+		<div class="container">
+			<header class="header">
+				<div class="header-txt"><a>My Book</a></div>
+				<div class="signout">
+					<button onclick="logOut()">Sign Out</button>
+				</div>
+			</header>
+			<div class="clearfix"></div>
+			<nav class="left-nav">
+				<ul>
+					<li><a href="../feed/feed.html">Feed</a></li>
+					<li class="active"><a href="profile.html">Profile</a></li>
+				</ul>
+			</nav>
+			<section class="content-container">
+				<div class="form-container">
+					<div class="imagePreview">
+						<img src="" id="showImage">
+					</div>
+					<form id="myform">
+						<ul>
+							<li><input type="text" id="name" placeHolder="Name" maxLength="50"><sup>*</sup></li>
+							<li><input type="text" id="age" placeHolder="Age"><sup>*</sup></li>
+							<li><input type="text" id="phone" placeHolder="phone"><sup>*</sup></li>
+							<li><input type="text" id="email" placeHolder="Email"><sup>*</sup></li>
+							<li><textarea id="address" placeHolder="Address"></textarea></li>
+							<li><input type='file' accept='image/*' onchange='openFile(event)'></li>
+							<li><input type="button" id="save" value="Save" class="save" disabled></li>						
+						</ul>
+					</form>
+				</div>
+			</section>
+			<footer>Talent Improving exercise, OFS</footer>
+		</div>
+	</body>
+	<script src="../js/myBook.js"></script>
+</html>

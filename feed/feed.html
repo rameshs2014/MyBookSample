@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MY Book</title>
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<link rel="stylesheet" type="text/css" href="feed.css">
+	</head>
+	<body>
+		<div class="container">
+			<header class="header">
+				<div class="header-txt"><a>My Book</a></div>
+				<div class="signout">
+					<button onclick="logOut()">Sign Out</button>
+				</div>
+			</header>
+			<div class="clearfix"></div>
+			<nav class="left-nav">
+				<ul>
+					<li class="active"><a href="feed.html">Feed</a></li>
+					<li><a href="../profile/profile.html">Profile</a></li>
+				</ul>
+			</nav>
+			<section class="content-container">
+
+
+				<article class="content-box">
+					<input id="feedText" size="30" class="tftextinput" value="" type="text" placeHolder="Post your feed"/>&nbsp;&nbsp;&nbsp;
+					<input type="button" id="post"  value="Post Feed" onclick="addFeed('feedText')" class="tfbutton">
+					<div id="myDynamicTable">
+					</div>
+				</article>
+			</section>
+			<footer>Talent Improving exercise, OFS</footer>
+		</div>
+	</body>
+	<script src="../js/myBook.js"></script>
+</html>

@@ -1,0 +1,137 @@
+
+body {
+	background: url('../images/bg.jpg');
+	width: auto;
+	height: auto;
+	background-repeat: repeat;
+}
+
+.header-txt {
+	float :left;
+	width: 50%;	
+}
+
+.signout {
+    float: right;
+    padding: 5px;
+    margin: 0px 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+ul {
+    list-style: none outside none;
+}
+
+.signout button {
+    color: #fff;
+    border: medium none;
+    padding: 10px;
+    background: #265A01;
+    cursor: pointer;
+}
+
+.signout button:hover {
+	background: #1C4101;
+}
+
+nav ul {
+    list-style: none outside none;
+    margin: 30px 20px 0px 0px;
+    padding: 9px;
+}
+
+nav {
+	clear: both;
+	width: 20%;
+	float: left;
+}
+
+nav ul li {
+	background: #97A091;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	color: #fff;
+	cursor: pointer;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+
+nav ul li:hover, nav ul li.active {
+	background: #83887F;
+	color: #000;
+	cursor: pointer;
+}
+
+nav ul li a:hover {
+	color: #000;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0px;
+}
+
+.content-box {
+	border-radius:5px;
+	min-height:485px;
+	margin:30px 10px;
+}
+.content-box .tftextinput{
+	border:1px solid #D3C58E;
+	padding:10px;
+	width:55%;
+}
+.content-box .tfbutton {
+    background: #265A01;
+	border:none;
+	color:#fff;
+	font-size:16px;
+	padding:10px;
+	width:16%;
+	cursor: pointer;
+}
+
+.content-box .tfbutton:hover {
+	background: #1C4101;
+	cursor: pointer;
+}
+
+.content-container {
+	width: 75%;
+	float: left;
+}
+
+.left-nav {
+	min-height: 548px;
+	background: #B2CC9F;
+}
+
+#deleteButton {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	cursor: pointer;
+}
+
+#myDynamicTable table tr {
+	position: relative;
+	display: block;
+	margin-top: 10px;
+	background: #BEF781;
+}
+
+
+footer {
+	clear: both;
+}
+
